@@ -3,7 +3,7 @@
 🚀 Refactored and optimized DeepCalib's camera calibration pipeline for underwater imagery using TensorFlow, Keras, OpenCV, and NumPy.
 
 ## 🔧 Overview
-This project upgrades a legacy camera calibration system (DeepCalib) to handle challenging underwater imagery with improved stability, accuracy, and performance.
+This project upgrades a legacy camera calibration system (DeepCalib) to handle challenging underwater imagery with improved stability, accuracy, and performance. The Sun360 dataset was used.
 
 ## 💡 Key Improvements
 - **⬆️ Stability**: Increased model training stability by **30%** via TensorFlow refactor.
