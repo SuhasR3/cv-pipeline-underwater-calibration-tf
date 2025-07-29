@@ -1,2 +1,31 @@
-# cv-pipeline-underwater-calibration-tf
-Refactored and optimized DeepCalib’s underwater camera calibration pipeline using TensorFlow, OpenCV, and NumPy. Boosted model stability by 30%, calibration accuracy by 25%, and reducing data loading time by 40%.
+# Underwater Camera Calibration Optimization
+
+🚀 Refactored and optimized DeepCalib's camera calibration pipeline for underwater imagery using TensorFlow, Keras, OpenCV, and NumPy.
+
+## 🔧 Overview
+This project upgrades a legacy camera calibration system (DeepCalib) to handle challenging underwater imagery with improved stability, accuracy, and performance.
+
+## 💡 Key Improvements
+- **⬆️ Stability**: Increased model training stability by **30%** via TensorFlow refactor.
+- **🎯 Accuracy**: Boosted calibration precision in underwater conditions by **25%**.
+- **⚡ Performance**: Reduced data loading and preprocessing time by **40%** with efficient NumPy workflows.
+
+## 🛠️ Tech Stack
+- TensorFlow
+- Keras
+- OpenCV
+- NumPy
+- Python
+
+## 📂 Structure
+- `deepcalib_refactor/`: Core model and pipeline changes
+- `data_loader/`: Optimized data handling modules
+- `notebooks/`: Experiments and validation logs
+- `results/`: Before/after calibration comparisons
+
+## 📈 Why It Matters
+Underwater imaging presents unique challenges due to distortion and noise. This optimized calibration pipeline enables more reliable computer vision for marine robotics, research, and exploration.
+
+---
+
+📫 For questions or collaboration: [sragha23@asu.edu](mailto:sragha23@asu.edu)
