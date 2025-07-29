@@ -17,12 +17,6 @@ This project upgrades a legacy camera calibration system (DeepCalib) to handle c
 - NumPy
 - Python
 
-## 📂 Structure
-- `deepcalib_refactor/`: Core model and pipeline changes
-- `data_loader/`: Optimized data handling modules
-- `notebooks/`: Experiments and validation logs
-- `results/`: Before/after calibration comparisons
-
 ## 📈 Why It Matters
 Underwater imaging presents unique challenges due to distortion and noise. This optimized calibration pipeline enables more reliable computer vision for marine robotics, research, and exploration.
 
