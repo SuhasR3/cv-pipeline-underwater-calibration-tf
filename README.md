@@ -19,6 +19,33 @@ Underwater imaging presents unique challenges due to distortion and noise. This 
   <em>Figure 1: DeepCalib Pipeline - From Multi-Medium Calibration to Neural Color Restoration.</em>
 </p>
 
+```mermaid
+graph LR
+    subgraph Input
+    A[Raw Frames] --> B(Refraction/Haze)
+    end
+
+    subgraph "Geometric Fix (OpenCV)"
+    B --> C{calibrate.py}
+    C --> D[Intrinsic Matrix]
+    D --> E[Undistort]
+    end
+
+    subgraph "Radiometric Fix (TensorFlow)"
+    E --> F{pipeline_main.py}
+    F --> G[CNN Restoration]
+    G --> H[Color Recovery]
+    end
+
+    subgraph Output
+    H --> I[Air-Equivalent Data]
+    I --> J[Metric Validation]
+    end
+
+    style C fill:#0077be,stroke:#fff,color:#fff
+    style G fill:#f39c12,stroke:#333
+    style I fill:#27ae60,stroke:#fff,color:#fff
+```
 ---
 
 ## Tech Stack
