@@ -13,11 +13,6 @@ Underwater imaging presents unique challenges due to distortion and noise. This 
 3.  **TF Restoration (`pipeline_main.py`):** A [mention architecture, e.g., CNN or GAN] that maps degraded pixels to a corrected color space.
 4.  **Validation:** Comparison against ground truth metrics to ensure structural similarity and color accuracy.
 
-<p align="center">
-  <img src="DeepCalib_architectures.png" alt="DeepCalib System Architecture" width="800">
-  <br>
-  <em>Figure 1: DeepCalib Pipeline - From Multi-Medium Calibration to Neural Color Restoration.</em>
-</p>
 
 ```mermaid
 graph LR
